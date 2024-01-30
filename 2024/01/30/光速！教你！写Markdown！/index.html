@@ -19,26 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wugiccode.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Try to enjoy your life.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Wugic的创作空间">
-<meta property="og:url" content="http://wugiccode.github.io/index.html">
+    <meta name="description" content="让我先讲点废话，对引入部分不感兴趣或是赶时间的同志们就跳过吧： 老早之前帮同学做文集，规模不大也就二三万字吧，当时还是个刚开化的小朋友，用的是Office的Word文档。 然后幼小的我花了一下午只顾做了排版…… 还有两三万字没敲呢！ 来来回回搞了那么久还贼难看，最后甲方不好意思地回绝了。 当然以上这个例子是我瞎编的…… 不过事实上，在那个时候，我也经常会在写作的过程中纠结于繁杂的段落格式设置，以及">
+<meta property="og:type" content="article">
+<meta property="og:title" content="光速！教你！写Markdown！">
+<meta property="og:url" content="http://wugiccode.github.io/2024/01/30/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81%E5%86%99Markdown%EF%BC%81/index.html">
 <meta property="og:site_name" content="Wugic的创作空间">
-<meta property="og:description" content="Try to enjoy your life.">
+<meta property="og:description" content="让我先讲点废话，对引入部分不感兴趣或是赶时间的同志们就跳过吧： 老早之前帮同学做文集，规模不大也就二三万字吧，当时还是个刚开化的小朋友，用的是Office的Word文档。 然后幼小的我花了一下午只顾做了排版…… 还有两三万字没敲呢！ 来来回回搞了那么久还贼难看，最后甲方不好意思地回绝了。 当然以上这个例子是我瞎编的…… 不过事实上，在那个时候，我也经常会在写作的过程中纠结于繁杂的段落格式设置，以及">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-01-30T15:00:25.000Z">
+<meta property="article:modified_time" content="2024-01-30T15:01:43.331Z">
 <meta property="article:author" content="WugicFloy">
-<meta property="article:tag" content="Personal Blog">
+<meta property="article:tag" content="Markdown">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://wugiccode.github.io/">
+<link rel="canonical" href="http://wugiccode.github.io/2024/01/30/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81%E5%86%99Markdown%EF%BC%81/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://wugiccode.github.io/2024/01/30/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81%E5%86%99Markdown%EF%BC%81/","path":"2024/01/30/光速！教你！写Markdown！/","title":"光速！教你！写Markdown！"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Wugic的创作空间</title>
+<title>光速！教你！写Markdown！ | Wugic的创作空间</title>
   
 
 
@@ -71,7 +73,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Wugic的创作空间</h1>
+      <p class="site-title">Wugic的创作空间</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">WugicFloy's Official Blog</p>
@@ -98,7 +100,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -111,6 +113,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%A0%E5%85%88%E5%88%AB%E6%80%A5%EF%BC%8C%E5%85%88%E5%BE%97%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88%E6%98%AFMarkdown"><span class="nav-number">1.</span> <span class="nav-text">你先别急，先得知道什么是Markdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%A9%AC%E4%B8%8A%E5%BC%80%E5%A7%8B%E4%BA%86%EF%BC%8C%E4%BD%86%E8%AF%B7%E5%85%88%E5%81%9A%E5%A5%BD%E5%87%86%E5%A4%87%EF%BC%81"><span class="nav-number">2.</span> <span class="nav-text">马上开始了，但请先做好准备！</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%EF%BC%8C%E8%B5%B7%E9%A3%9E%EF%BC%81"><span class="nav-number">3.</span> <span class="nav-text">开始，起飞！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown%E6%96%87%E4%BB%B6"><span class="nav-number">3.1.</span> <span class="nav-text">Markdown文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AE%B5%E8%90%BD"><span class="nav-number">3.2.</span> <span class="nav-text">段落</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E4%BD%93"><span class="nav-number">3.3.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E9%A2%98"><span class="nav-number">3.4.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF"><span class="nav-number">3.5.</span> <span class="nav-text">分隔线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">3.6.</span> <span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.6.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.6.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97"><span class="nav-number">3.6.3.</span> <span class="nav-text">列表嵌套</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -160,16 +163,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://wugiccode.github.io/2024/01/30/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81%E5%86%99Markdown%EF%BC%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -183,13 +187,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Wugic的创作空间">
+      <meta itemprop="name" content="光速！教你！写Markdown！ | Wugic的创作空间">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/01/30/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81%E5%86%99Markdown%EF%BC%81/" class="post-title-link" itemprop="url">光速！教你！写Markdown！</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          光速！教你！写Markdown！
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -212,8 +216,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <p>让我先讲点废话，对引入部分不感兴趣或是赶时间的同志们就跳过吧：</p>
+    <div class="post-body" itemprop="articleBody"><p>让我先讲点废话，对引入部分不感兴趣或是赶时间的同志们就跳过吧：</p>
 <p>老早之前帮同学做文集，规模不大也就二三万字吧，当时还是个刚开化的小朋友，用的是Office的Word文档。</p>
 <p>然后幼小的我花了一下午只顾做了排版……</p>
 <p>还有两三万字没敲呢！</p>
@@ -419,7 +422,6 @@
 <hr>
 <h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p><em>未完待续……</em></p>
 
-      
     </div>
 
     
@@ -427,86 +429,25 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/01/12/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81Markdown%E8%BF%9B%E9%98%B6%EF%BC%81/" rel="prev" title="光速！教你！Markdown进阶！">
+                  <i class="fa fa-angle-left"></i> 光速！教你！Markdown进阶！
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://wugiccode.github.io/2024/01/12/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81Markdown%E8%BF%9B%E9%98%B6%EF%BC%81/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="WugicFloy">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Wugic的创作空间">
-      <meta itemprop="description" content="Try to enjoy your life.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Wugic的创作空间">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/01/12/%E5%85%89%E9%80%9F%EF%BC%81%E6%95%99%E4%BD%A0%EF%BC%81Markdown%E8%BF%9B%E9%98%B6%EF%BC%81/" class="post-title-link" itemprop="url">光速！教你！Markdown进阶！</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-01-12 12:15:10" itemprop="dateCreated datePublished" datetime="2024-01-12T12:15:10+08:00">2024-01-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-14 21:55:17" itemprop="dateModified" datetime="2024-01-14T21:55:17+08:00">2024-01-14</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="你-先-别-急"><a href="#你-先-别-急" class="headerlink" title="你  先  别  急"></a>你  先  别  急</h1>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
